@@ -29,3 +29,9 @@ Add the new mode.
 Apply the resolution. 
 
 reference [page at askubuntu](http://askubuntu.com/questions/189246/how-set-my-monitor-resolution)	 
+
+
+## **Using parallel process**
+Example I have a script that uses a single core to use all the cores use `GNU Paralle`
+`parallel -a <InputFile> --result <OutputFile> bash <script>`
+Where Script process the input passed
